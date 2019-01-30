@@ -5,7 +5,7 @@
 <% end %>
 
 
-<form action="<%= cats_url %>" method="post">
+<form action="<%= action_url %>" method="post">
   <% if action == :edit %>
     <input type="hidden" name ="_method" value="patch">
   <% end %>
