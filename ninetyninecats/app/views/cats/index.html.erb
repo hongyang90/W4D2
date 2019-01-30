@@ -1,0 +1,11 @@
+<h1> All of the Cats! </h1>
+
+
+<ul> 
+   <% @cats.each do |cat| %>
+    <li> name: <%= cat.name %> </li>
+    <a href="<%= cat_url(cat) %>">Show this cat!</a>
+  <% end %>
+
+    
+</ul>
